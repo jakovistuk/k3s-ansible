@@ -1,7 +1,8 @@
-- name: Hello World 1a Sample
+- name: Hello World 1a no Sample
   hosts: all
+  gather_facts: no
   tasks:
     - name: Hello Message 1a
       debug:
-        msg: "Hello World!a"
+        msg: "Hello World!1a"
 
